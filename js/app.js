@@ -23,10 +23,6 @@ let kodeHauzStaffs = [
 ]
 
 
-
-
-
-
 let staffString = ""
 
 kodeHauzStaffs.forEach((instructors) => {
@@ -41,19 +37,20 @@ kodeHauzStaffs.forEach((instructors) => {
          
     
 });
-document.querySelector('.card').innerHTML = staffString
+document.querySelector('.card').innerHTML = staffString  // Design at the end
 
 
 
 
 
 
+// Get Random numbers
 
-
-console.log(Math.random(3));
-let someth = Math.random() * 10
-let floored = Math.floor (someth)
-console.log(someth, floored)
+let count = document.querySelector('#count')
+function getRand(min, max) {
+    let result = Math.floor(Math.random() * (max - min)) + min
+    count.innerHTML = result
+}
 
 
 
