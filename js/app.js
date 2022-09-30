@@ -37,7 +37,7 @@ kodeHauzStaffs.forEach((instructors) => {
          
     
 });
-document.querySelector('.card').innerHTML = staffString  // Design at the end
+document.querySelector('.box').innerHTML = staffString  // Design at the end
 
 
 
