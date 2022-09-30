@@ -54,6 +54,19 @@ let someth = Math.random() * 10
 let floored = Math.floor (someth)
 console.log(someth, floored)
 
+console.log(Math.pow(8, 3))
+
+
+
+// function circle(radius)
+// {
+// this. radius = radius;
+// // area method.
+// this. area = function ()
+// {
+// return Math. PI * this. radius * this. radius;
+// };
+
 
 
 
