@@ -46,7 +46,8 @@ document.querySelector('.card').innerHTML = staffString
 
 
 
-// console.log(Math.SQRT2(8, 3))
+
+
 
 
 console.log(Math.random(3));
@@ -54,7 +55,15 @@ let someth = Math.random() * 10
 let floored = Math.floor (someth)
 console.log(someth, floored)
 
+
+
+// Answer on Math Object
+
 console.log(Math.pow(8, 3))
+
+
+
+
 
 //Function to find the area of a circle
 
