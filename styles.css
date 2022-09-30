@@ -10,8 +10,12 @@
     border: 1px solid black;
     width: 300px;
     justify-content: center;
+    justify-self: center;
+    justify-items: center;
     background: brown;
     color: aliceblue;
+    margin-bottom: 20px;
+    padding: 25px;
 }
 
 
@@ -20,4 +24,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-items: center;
+    border: 1px solid black;
+    
 }
