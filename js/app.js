@@ -56,7 +56,7 @@ console.log(someth, floored)
 
 console.log(Math.pow(8, 3))
 
-
+//Function to find the area of a circle
 
 function circle(radius)
 {
@@ -67,11 +67,21 @@ function circle(radius)
         return Math.PI * this.radius * this.radius;
     };
 }
-var c = new circle(3);
+let c = new circle(3);
 console.log('Area =', c.area().toFixed(2));
 
 
+//Function to solve quadratic equation
 
+function solve(a,b,c){
+    let result = (((-1*b) + Math.sqrt(Math.pow(b,2)) - (4*a*c))/(2*a));
+    let result2 = (((-1*b) - Math.sqrt(Math.pow(b,2)) - (4*a*c))/(2*a));
+    
+    return result + "<br>" + result2;
+}
+
+// document.write( solve(1,1,-1) );
+console.log(solve(1, 1, -1))
 
 
 
